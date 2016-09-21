@@ -1,0 +1,112 @@
+/*body style*/
+body {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(rgb(30, 50, 80)), to(rgb(20, 50, 30)));
+	background-color: rgb(20, 70, 20);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:100% 100%;
+	position: relative;
+}
+
+/*main page style*/
+#main {
+	background: url(http://pic1.win4000.com/wallpaper/1/53869b2352a9a.jpg);
+	margin: 0 auto;
+	width: 1300px;
+	height: 1500px;
+    background-repeat: no-repeat;
+    background-size:150% 100%;
+}
+
+/*title style*/
+.title {
+	color: rgb(220, 220, 220);
+	font-size: 70px;
+	height: 300px;
+	text-align: center;
+	line-height: 250%;
+	font-family: Helvetica;
+	background-color: rgb(20, 150, 40);
+    animation: title-change 2s;
+    animation: title-bg-change 5s;
+}
+
+@keyframes title-change {
+	from {color: rgb(250, 120, 0);}
+	to {color: rgb(220, 220, 220);}
+}
+
+@keyframes title-bg-change{
+	from {background-color: rgb(200, 220, 10);}
+	to {background-color: rgb(20, 150, 40);}
+}
+
+/*logo style*/
+.logo {
+	margin-left: 0px;
+	height: 100px;
+	position: absolute;
+	border-radius: 50%;
+    animation: rotate 3s linear 0s infinite;
+}
+
+@keyframes rotate {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+/*signature style*/
+.signature {
+    background: url(http://pic2.ooopic.com/13/17/02/10bOOOPICea_1024.jpg);
+	background-color: rgb(10, 50, 50);
+	position:fixed;
+	color: yellow;
+	top: 30px;
+	right: 30px;
+	font-size: 20px;
+	font-style: italic;
+	font-family: "楷体";
+	width: 200px;
+	animation: sign-change1 3s;
+	animation: sign-change2 3s;
+}
+
+@keyframes sign-change1 {
+	from {color: red;}
+	to {color: yellow;}
+}
+
+@keyframes sign-change2 {
+	from {background-color: silver;}
+	to {background-color: rgb(10, 50, 50);}
+}
+
+.yellow-text {
+	color: yellow;
+}
+
+/*img style*/
+.small-image {
+	width:50px;
+}
+
+/*links style*/
+.links {
+	margin: 0 auto;
+	width: 800px;
+	color: rgb(230, 230, 100);
+	font-size: 20px;
+	text-align: left;
+	font-family: Georgia;
+	line-height: 150%;
+}
+
+.img-preview {
+	width: 80px;
+	border: 4px solid gold;
+	border-color: gold;
+}
+
+
+
+
