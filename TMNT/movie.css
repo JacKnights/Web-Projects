@@ -1,0 +1,145 @@
+body {
+	background: url(img/background.png);
+	margin: 0 auto;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+#heading {
+	background: url(img/bannerbackground.png);
+	height: 50px;
+	text-align: center;
+}
+
+#heading > img {
+	height: 50px;
+	margin: 0 auto;
+}
+
+#title {
+	font-weight: bold;
+	font-size: 24pt;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-align: center;
+}
+
+#main {
+	width: 800px;
+	margin: 0 auto;
+	border: 4px solid gray;
+	text-align: left;
+}
+
+#comment-part {
+	width: 550px;
+	float: left;
+	display: inline-block;
+}
+
+#comment-top {
+	background: url(img/rottenbackground.png);
+	width: 550px;
+	height: 83px;
+	background-repeat: repeat-x;
+	float: left;
+}
+
+#comment-top > img {
+	overflow: hidden;
+	vertical-align: bottom;
+}
+
+#red-big {
+	color: red;
+	font-size: 48pt;
+	font-weight: bold;
+}
+
+#white-small {
+	color: white;
+	font-size: 8pt;
+}
+
+#column1 {
+	margin-left: 2%;
+	display: inline;
+	float: left;
+	width: 47%;
+}
+
+#column2 {
+	margin-right: 2%;
+	float: right;
+	display: inline;
+	width: 47%;
+}
+
+.comment {
+	margin-bottom: 3em;
+}
+
+.comment-box {
+	background-color: #E1D697;
+	border: 2px solid gray;
+	padding: 8px;
+	font-weight: bold;
+	font-size: 8pt;
+	display: block;
+	overflow: hidden;
+}
+
+.comment-box > img {
+	float:left;
+	margin-right: 5px;
+}
+
+.reviewer {
+	font-size: 8pt;
+}
+
+.reviewer > img {
+	float:left;
+}
+
+.publication {
+	font-size: 8pt;
+	font-style: italic;
+}
+
+#intro-part {
+	background-color: #A2B964;
+	width: 250px;
+	display: inline-block;
+}
+
+dl {
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	margin: 10px;
+	text-align: left;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 1em;
+}
+
+#bottom-text {
+	text-align: center;
+	background-color: #A2B964;
+	font-size: 12px;
+	margin: 0px;
+	padding: 5px;
+}
+
+#link {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+#link > a > img {
+	width: 80px;
+}
