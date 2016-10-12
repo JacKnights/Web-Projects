@@ -1,0 +1,70 @@
+body {
+	background-color: maroon;
+}
+
+/*标题的样式*/
+#heading {
+	margin: 0px auto;
+	background-color: gold;
+	width: 800px;
+	color: gray;
+	text-align: center;
+	font-family: Times, Helvetica, Arial, sans-serif;
+}
+
+#heading h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+#heading h2 {
+	font-family: Times, Helvetica, Arial, sans-serif;
+	font-style: italic;
+	letter-spacing: 5px;
+	font-size: 35px;
+	margin-top: -15px;
+}
+
+#heading img {
+	border-radius: 50%;
+	width: 80px;
+}
+
+#calculator {
+	background-color: gold;
+	width: 500px;
+	margin: 20px auto 0 auto;
+	text-align: center;
+    box-shadow: 0 0 30px gold;
+    border-radius: 5%;
+}
+
+/*输入框的样式*/
+#input {
+	width: 90%;
+	height: 40px;
+	font-size: 35px;
+	color: maroon;
+	background-color: silver;
+	text-align: right;
+	margin: 2%;
+}
+
+#button {
+	overflow: hidden;
+	margin: 2%;
+}
+
+/*按键的样式*/
+.button {
+	border-radius: 30%;
+	width: 21%;
+	height: 50px;
+	margin: 2%;
+	float: left;
+	cursor: pointer;
+	color: maroon;
+	font-size: 30px;
+	background-color: rgb(100, 255, 255);
+}
