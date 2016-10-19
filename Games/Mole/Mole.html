@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Whatc-a-mole</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/Mole.css">
+    <script type="text/javascript" src="script/Mole.js"></script>
+  </head>
+  <body>
+    <h1>Whatc-a-mole</h1>
+    <h2>Test your skill. How many boxes(moles) can you check(hit) in 30 seconds?</h2>
+    <div id="board">
+      <div class="row">
+        <button id="game-switch">Start Game | Stop Game</button>
+        <div id="time-container">Time:<p id="time">0</p></div>
+      </div>
+      <div class="row">
+        <div id="status">Game Over</div>
+        <div id="score-container">Score:<p id="score">0</p></div>
+      </div>
+    </div>
+    <div id="mole">
+      <!--将在此用js动态添加鼠洞-->
+    </div>
+    <div id="instruction"><strong>Instructions:</strong>
+      <ol>
+        <li>Click on the radio buttons(moles) as they are selected randomly by the computer,</li>
+        <li>1 point per hit, minus 1 point per miss.</li>
+      </li>
+    </div>
+    <div class="other-game"><a href="../Maze/Maze.html">Another game: The Amazing Mouse Maze</a></div>
+  </body>
+</html>
