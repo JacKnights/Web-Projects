@@ -1,0 +1,290 @@
+/*用于设定整个块的位置，并且使其不随放大缩小而向左右偏移*/
+#bottom-positioner {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+	width: 350px;
+	height: 350px;
+}
+
+/*@+按键所处位置*/
+#button {
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+#button:hover  {
+	border-radius: 50%;
+}
+
+/*信息栏大图标*/
+#info-bar {
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	border-radius: 50%;
+	font-size: 15px;
+	position: absolute;
+	top: 180px;
+	left: 170px;
+	transition: all 0.5s ease-in;
+	transition-delay: 1s;
+}
+
+/*大图标在鼠标指向@+时的动画*/
+#button:hover #info-bar {
+	background-color: rgba(150, 150, 150, 1) !important;
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	top: 0px;
+	left: 120px;
+	transition: all 0.5s ease-out;
+}
+
+/*用于消除li的圆点*/
+#button  li {
+	list-style: none;
+}
+
+#info-bar li {
+	margin-bottom: 5px;
+}
+
+#info-bar span {
+	margin-left: 5px;
+}
+
+#info-bar img {
+	vertical-align: middle;
+}
+
+.page {
+	color: white;
+	display: block;
+}
+
+.user {
+	position: relative;
+	top: -5px;
+	left: 10px;
+}
+
+.comment {
+	font-size: 30px;
+	position: relative;
+	left: 5px;
+}
+
+.posted {
+	margin-right: 10px;
+}
+
+.mine {
+	color: #079E6E;
+	display: inline;
+	position: relative;
+	left: -20px;
+}
+
+/*5个小图标所处板块，其位置由相对定位确定*/
+#control-ring {
+	position: absolute;
+	top: 100px;
+	left: 80px;
+	width: 0;
+	height: 0;
+}
+
+.button {
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+}
+
+#button:hover .button {
+	background-color: gray !important;
+	height: 35px;
+	width: 35px;
+}
+
+.mask {
+	background: url("assets/images/nomask.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%, 60%;
+	opacity: 0;
+	position: relative;
+	left: 40px;
+	top: 44px;
+	transition: all 0.5s ease-in;
+	transition-delay: 1s;
+}
+
+#button:hover .mask {
+	background: url("assets/images/nomask.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%, 60%;
+	opacity: 1;
+	position: relative;
+	left: -15px;
+	top: 0px;
+	transition: all 0.5s ease-out;
+}
+
+.history {
+	background: url("assets/images/history.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%, 60%;
+	position: relative;
+	opacity: 0;
+	left: 40px;
+	top: 14px;
+	transition: all 0.5s ease-in;
+	transition-delay: 1s;
+}
+
+#button:hover .history {
+	background: url("assets/images/history.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%, 60%;
+	opacity: 1;
+	position: relative;
+	left: -30px;
+	top: 10px;
+	transition: all 0.5s ease-out;
+}
+
+.message {
+	background: url("assets/images/message.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%, 60%;
+	position: relative;
+	left: 40px;
+	top: -16px;
+	transition: all 0.5s ease-in;
+	transition-delay: 1s;
+}
+
+#button:hover .message {
+	background: url("assets/images/message.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%, 60%;
+	position: relative;
+	left: -10px;
+	top: 18px;
+	transition: all 0.5s ease-out;
+}
+
+.setting {
+	background: url("assets/images/setting.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%, 60%;
+	position: relative;
+	left: 40px;
+	top: -46px;
+	transition: all 0.5s ease-in;
+	transition-delay: 1s;
+}
+
+#button:hover .setting {
+	background: url("assets/images/setting.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%, 60%;
+	position: relative;
+	left: 30px;
+	top: 5px;
+	transition: all 0.5s ease-out;
+}
+
+.sign {
+	background: url("assets/images/signin.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%, 60%;
+	position: relative;
+	left: 40px;
+	top: -76px;
+	transition: all 0.5s ease-in;
+	transition-delay: 1s;
+}
+
+#button:hover .sign {
+	background: url("assets/images/signin.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%, 60%;
+	position: relative;
+	left: 75px;
+	top: -35px;
+	transition: all 0.5s ease-out;
+}
+
+/*控制提示的红色数字出现的动画*/
+#button:hover .unread {
+	transition: all 0.5s;
+	color: white;
+	background-color: red;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: -5px;
+	top: -5px;
+}
+
+/*控制提示的红色数字消失的动画*/
+.unread {
+	width: 0;
+	height: 0;
+	text-align: center;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	border-radius: 50%;
+	transition: all 0.5s ease-in;
+	transition-delay: 1s;
+}
+
+/*控制提示的@+图标缩回的动画，在其它图标缩回后再缩回*/
+.apb {
+	background: url("assets/images/atplus_white.png");
+	background-color: rgba(150, 150, 150, 1) !important;
+	background-size: 80%, 80%;
+	border-radius: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+	transition: all 0.5s ease-out;
+	transition-delay: 1.5s;
+	position: absolute;
+	top: 160px;
+	left: 160px;
+}
+
+/*控制提示的@+图标放大的动画*/
+#button:hover .apb {
+	background: url("assets/images/atplus_green.png");
+	background-color: rgba(48, 63, 159, 1) !important;
+	background-size: 80%, 80%;
+	border-radius: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	transition: all 0.5s ease-out;
+	position: absolute;
+	top: 155px;
+	left: 155px;
+}
