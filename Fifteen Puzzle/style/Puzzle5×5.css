@@ -1,0 +1,246 @@
+/*拼图所处块*/
+
+#puzzle-container {
+	margin: 0 auto;
+	width: 400px;
+	height: 400px;
+	position: relative;
+}
+
+/*拼图特性*/
+
+.this-puzzle {
+	background: url(../image/dragon-down.jpg);
+	width: 80px;
+	height: 80px;
+}
+
+/*以下是每张拼图的id*/
+
+#puzzle0 {
+	background-position: 0 0;
+}
+
+#puzzle1 {
+	background-position: 320px 0;
+}
+
+#puzzle2 {
+	background-position: 240px 0;
+}
+
+#puzzle3 {
+	background-position: 160px 0;
+}
+
+#puzzle4 {
+	background-position: 80px 0px;
+}
+
+#puzzle5 {
+	background-position: 0px 320px;
+}
+
+#puzzle6 {
+	background-position: 320px 320px;
+}
+
+#puzzle7 {
+	background-position: 240px 320px;
+}
+
+#puzzle8 {
+	background-position: 160px 320px;
+}
+
+#puzzle9{
+	background-position: 80px 320px;
+}
+
+#puzzle10 {
+	background-position: 0px 240px;
+}
+
+#puzzle11 {
+	background-position: 320px 240px;
+}
+
+#puzzle12 {
+	background-position: 240px 240px;
+}
+
+#puzzle13 {
+	background-position: 160px 240px;
+}
+
+#puzzle14 {
+	background-position: 80px 240px;
+}
+
+#puzzle15 {
+	background-position: 0px 160px;
+}
+
+#puzzle16 {
+	background-position: 320px 160px;
+}
+
+#puzzle17 {
+	background-position: 240px 160px;
+}
+
+#puzzle18 {
+	background-position: 160px 160px;
+}
+
+#puzzle19 {
+	background-position: 80px 160px;
+}
+
+#puzzle20 {
+	background-position: 0px 80px;
+}
+
+#puzzle21 {
+	background-position: 320px 80px;
+}
+
+#puzzle22 {
+	background-position: 240px 80px;
+}
+
+#puzzle23 {
+	background-position: 160px 80px;
+}
+
+#puzzle24 {
+	background: url()!important;
+	border: none;
+}
+
+/*以下是拼图板上每个位置*/
+
+.position0 {
+	top: 0px;
+	left: 0px;
+}
+
+.position1 {
+	top: 0px;
+	left: 80px;
+}
+
+.position2 {
+	top: 0px;
+	left: 160px;
+}
+
+.position3 {
+	top: 0;
+	left: 240px;
+}
+
+.position4 {
+	top: 0px;
+	left: 320px;
+}
+
+.position5 {
+	top: 80px;
+	left: 0px;
+}
+
+.position6 {
+	top: 80px;
+	left: 80px;
+}
+
+.position7 {
+	top: 80px;
+	left: 160px;
+}
+
+.position8 {
+	top: 80px;
+	left: 240px;
+}
+
+.position9{
+	top: 80px;
+	left: 320px;
+}
+
+.position10 {
+	top: 160px;
+	left: 0px;
+}
+
+.position11 {
+	top: 160px;
+	left: 80px;
+}
+
+.position12 {
+	top: 160px;
+	left: 160px;
+}
+
+.position13 {
+	top: 160px;
+	left: 240px;
+}
+
+.position14 {
+	top: 160px;
+	left: 320px;
+}
+
+.position15 {
+	top: 240px;
+	left: 0px;
+}
+
+.position16 {
+	top: 240px;
+	left: 80px;
+}
+
+.position17 {
+	top: 240px;
+	left: 160px;
+}
+
+.position18 {
+	top: 240px;
+	left: 240px;
+}
+
+.position19 {
+	top: 240px;
+	left: 320px;
+}
+
+.position20 {
+	top: 320px;
+	left: 0px;
+}
+
+.position21 {
+	top: 320px;
+	left: 80px;
+}
+
+.position22 {
+	top: 320px;
+	left: 160px;
+}
+
+.position23 {
+	top: 320px;
+	left: 240px;
+}
+
+.position24 {
+	top: 320px;
+	left: 320px;
+}

@@ -1,0 +1,102 @@
+/*拼图所处块*/
+
+#puzzle-container {
+	margin: 0 auto;
+	width: 360px;
+	height: 360px;
+	position: relative;
+}
+
+/*拼图特性*/
+
+.this-puzzle {
+	background: url(../image/knight.jpg);
+	width: 120px;
+	height: 120px;
+}
+
+/*以下是每张拼图的id*/
+
+#puzzle0 {
+	background-position: 0 0;
+}
+
+#puzzle1 {
+	background-position: 240px 0;
+}
+
+#puzzle2 {
+	background-position: 120px 0;
+}
+
+#puzzle3 {
+	background-position: 0px 240px;
+}
+
+#puzzle4 {
+	background-position: 240px 240px;
+}
+
+#puzzle5 {
+	background-position: 120px 240px;
+}
+
+#puzzle6 {
+	background-position: 0px 120px;
+}
+
+#puzzle7 {
+	background-position: 240px 120px;
+}
+
+#puzzle8 {
+	background: url()!important;
+	border: none;
+}
+
+/*以下是拼图板上每个位置*/
+
+.position0 {
+	top: 0;
+	left: 0px;
+}
+
+.position1 {
+	top: 0;
+	left: 120px;
+}
+
+.position2 {
+	top: 0;
+	left: 240px;
+}
+
+.position3 {
+	top: 120px;
+	left: 0px;
+}
+
+.position4 {
+	top: 120px;
+	left: 120px;
+}
+
+.position5 {
+	top: 120px;
+	left: 240px;
+}
+
+.position6 {
+	top: 240px;
+	left: 0px;
+}
+
+.position7 {
+	top: 240px;
+	left: 120px;
+}
+
+.position8 {
+	top: 240px;
+	left: 240px;
+}
