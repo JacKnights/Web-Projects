@@ -10,7 +10,7 @@ function appendArrow() {
 	$(this).append(arrow);
 }
 
-$(window).load(function() {
+$(document).ready(function() {
 	$("table").each(function() {
 		for (var i = 0; i < $(this).find("tbody").find("tr").length; i++) {
 			if (i % 2 == 1) {
