@@ -1,0 +1,160 @@
+/*拼图所处块*/
+
+#puzzle-container {
+	margin: 0 auto;
+	width: 370px;
+	height: 370px;
+	position: relative;
+}
+
+/*拼图特性*/
+
+.this-puzzle {
+	background: url(../image/panda.jpg);
+	width: 88px;
+	height: 88px;
+}
+
+/*以下是每张拼图的id*/
+
+#puzzle0 {
+	background-position: 0 0;
+}
+
+#puzzle1 {
+	background-position: 264px 0;
+}
+
+#puzzle2 {
+	background-position: 176px 0;
+}
+
+#puzzle3 {
+	background-position: 88px 0;
+}
+
+#puzzle4 {
+	background-position: 0px 264px;
+}
+
+#puzzle5 {
+	background-position: 264px 264px;
+}
+
+#puzzle6 {
+	background-position: 176px 264px;
+}
+
+#puzzle7 {
+	background-position: 88px 264px;
+}
+
+#puzzle8 {
+	background-position: 0px 176px;
+}
+
+#puzzle9{
+	background-position: 264px 176px;
+}
+
+#puzzle10 {
+	background-position: 176px 176px;
+}
+
+#puzzle11 {
+	background-position: 88px 176px;
+}
+
+#puzzle12 {
+	background-position: 0px 88px;
+}
+
+#puzzle13 {
+	background-position: 264px 88px;
+}
+
+#puzzle14 {
+	background-position: 176px 88px;
+}
+
+/*以下是拼图板上每个位置*/
+
+.position0 {
+	top: 0;
+	left: 0px;
+}
+
+.position1 {
+	top: 0;
+	left: 90px;
+}
+
+.position2 {
+	top: 0;
+	left: 180px;
+}
+
+.position3 {
+	top: 0;
+	left: 270px;
+}
+
+.position4 {
+	top: 90px;
+	left: 0px;
+}
+
+.position5 {
+	top: 90px;
+	left: 90px;
+}
+
+.position6 {
+	top: 90px;
+	left: 180px;
+}
+
+.position7 {
+	top: 90px;
+	left: 270px;
+}
+
+.position8 {
+	top: 180px;
+	left: 0px;
+}
+
+.position9{
+	top: 180px;
+	left: 90px;
+}
+
+.position10 {
+	top: 180px;
+	left: 180px;
+}
+
+.position11 {
+	top: 180px;
+	left: 270px;
+}
+
+.position12 {
+	top: 270px;
+	left: 0px;
+}
+
+.position13 {
+	top: 270px;
+	left: 90px;
+}
+
+.position14 {
+	top: 270px;
+	left: 180px;
+}
+
+.position15 {
+	top: 270px;
+	left: 270px;
+}
