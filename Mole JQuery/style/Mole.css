@@ -1,0 +1,95 @@
+h1, h2 {
+	font-family: Tahoma, Verdana, sans-serif;
+	font-weight: normal;
+	text-align: center;
+}
+
+/*计分板样式及计分板内容样式*/
+
+#board {
+	margin: 0 auto;
+	position: relative;
+	width: 350px;
+	height: 60px;
+	font-size: 15px;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+.row {
+	margin-top: 20px;
+}
+
+#game-switch {
+	border-radius: 10%;
+	width: 200px;
+	position: absolute;
+	top: 0px;
+}
+
+#time-container {
+	position: absolute;
+	top: -15px;
+	right: 0px;
+}
+
+#time {
+	display: inline-block;
+	border: 1px solid gray;
+	width: 40px;
+}
+
+#status {
+	border: 1px solid gray;
+	width: 200px;
+	position: absolute;
+	bottom: 0;
+}
+
+#score-container {
+	position: absolute;
+	right: 0px;
+	bottom: -15px;
+}
+
+#score {
+	display: inline-block;
+	border: 1px solid gray;
+	width: 40px;
+}
+
+/*游戏区域样式*/
+
+#mole {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 30px auto;
+	width: 300px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.hole {
+	border: 1px solid gray;
+	border-radius: 50% 50%;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin: 6px;
+	background-size: 15px 15px;
+	background-image: none;
+}
+
+/*地鼠出现样式*/
+
+.chosen {
+	background-image: url(../image/mole.jpg)!important;
+}
+
+#instruction {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.other-game {
+	text-align: center;
+}
